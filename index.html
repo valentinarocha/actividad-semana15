@@ -19,7 +19,9 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
+
 
                  <!--Barra de búsqueda para pantallas pequeñas-->
                  <form class="d-flex mb-3 d-lg-none mt-4" role="search">
@@ -60,7 +62,7 @@
         </nav>
 
         <!--Título y carrousel solo para lg-->
-        <div class="container my-5 text-center d-lg-block">
+        <div class="container my-5 text-center d-none d-lg-block">
             <h3>Piénsame...</h3>
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                 <div class="carousel-inner">
@@ -78,9 +80,9 @@
         </div>
 
         <!--Menú de opciones solo para lg-->
-        <div class="container">
+        <div class="container my-5">
             <div class="row mx-md-4 mx-sm-1">
-                <div class="col-lg-3 col-md-12 d-lg-block d-block" id="optionsList">
+                <div class="col-lg-3 col-md-12 d-none d-lg-block">
                     <div class="list-group">
                         <button class="list-group-item list-group-item-action p-3"> <a href="#" class="link-dark">Opción 1</a></button>
                         <button class="list-group-item list-group-item-action p-3"> <a href="#" class="link-dark">Opción 2</a></button>
