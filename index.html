@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Una Niña Inútil</title>
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    </head>
+
+    <body>
+
+        <!--Barra de navegación-->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(98, 101, 105)">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">Una niña inútil</a>
+               
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                 <!--Barra de búsqueda para pantallas pequeñas-->
+                 <form class="d-flex mb-3 d-lg-none mt-4" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-5">
+                        <a class="nav-link text-white" href="#">Conversación</a>
+                    </li>
+                    <li class="nav-item mx-5 opacity-50">
+                        <a class="nav-link text-white" href="#">Romance De La Venganza</a>
+                    </li>
+                    <li class="nav-item mx-5 opacity-50">
+                        <a class="nav-link text-white" href="#">Miedo</a>
+                    </li>
+
+                    <!--Botón de opciones solo visible en pantallas pequeñas y medianas-->
+
+                    <li class="nav-item mx-5 d-lg-none">
+                        <a id="optionsDropdown" class="nav-link text-white dropdown-toggle" href="#" data-bs-toggle="dropdown">Opciones</a>
+                            <ul id="optionsList" class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Opción 1</a></li>
+                                <li><a class="dropdown-item" href="#">Opción 2</a></li>
+                                <li><a class="dropdown-item" href="#">Opción 3</a></li>
+                                <li><a class="dropdown-item" href="#">Opción 4</a></li>
+                            </ul>
+                    </li>
+                </ul>
+
+                <!--Barra de búsqueda para lg-->
+
+                <form class="d-lg-flex d-none">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+            </div>
+        </nav>
+
+        <!--Título y carrousel solo para lg-->
+        <div class="container my-5 text-center d-lg-block">
+            <h3>Piénsame...</h3>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h5>Yo nunca pretendí ser. Premio que un varón presume.</h5>
+                    </div>
+                    <div class="carousel-item">
+                        <h5>...No me parezco a una flor. No sueño con el amor. Ni todo lo que se asume...</h5>
+                    </div>
+                    <div class="carousel-item">
+                        <h5>...Pero cuando pienso en vos. En el hiriente desvelo. Me arrepiento del adiós...</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Menú de opciones solo para lg-->
+        <div class="container">
+            <div class="row mx-md-4 mx-sm-1">
+                <div class="col-lg-3 col-md-12 d-lg-block d-block" id="optionsList">
+                    <div class="list-group">
+                        <button class="list-group-item list-group-item-action p-3"> <a href="#" class="link-dark">Opción 1</a></button>
+                        <button class="list-group-item list-group-item-action p-3"> <a href="#" class="link-dark">Opción 2</a></button>
+                        <button class="list-group-item list-group-item-action p-3"> <a href="#" class="link-dark">Opción 3</a></button>
+                        <button class="list-group-item list-group-item-action p-3"> <a href="#" class="link-dark">Opción 4</a></button>
+                    </div>
+                </div>
+
+                <!--Párrafos-->
+                <div class="col-lg-3 col-md-6">
+                    <div class="bg-light">
+                                <p class="text-justify">¿Por qué te cuesta, mi amor, comprender a mi destino? Si así fue que yo nací. 
+                                    Para estar lejos de aquí. Vagando en algún camino.</p>
+                                <p class="text-justify">Te enamoraste de mí. Sabiendo que soy criatura. 
+                                    Que no obedece razón. Que vive en algún rincón. Donde la noche es oscura.</p>
+                                <p class="text-justify">Pero piénsame. Piénsame. En tu costado vacío. Que tu alma solo era mío. Y el sueño que arrebaté.
+                                    Pero piénsame. Y perdóname. Que te convirtió en un hombre. Mi boca que no responde. Al llamarme tu mujer.</p>
+                            </div>
+                        </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="bg-light">
+                                <p class="text-justify">Yo nunca pretendí ser. Premio que un varón presume. 
+                                    No me parezco a una flor. No sueño con el amor. Ni todo lo que se asume.</p>
+                                <p class="text-justify">Pero cuando pienso en vos. En el hiriente desvelo. Me arrepiento del adiós.
+                                    Y te escribo una canción. Para decirte "te quiero".</p>
+                                <p class="text-justify">Solo piénsame. Piénsame. En tu costado vacío. 
+                                    Que tu alma solo era mío. Y el sueño que arrebaté.</p>
+                                    </div>
+                                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="bg-light">
+                                <p class="text-justify">Pero piénsame. Y perdóname. Que te convirtió en un hombre.
+                                    Mi boca que no responde. Al llamarme tu mujer.</p>
+                                <p class="text-justify">Que a pesar de que te asombre. Lograste que me ilusione.
+                                    Convertirme en tu mujer.</p>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
